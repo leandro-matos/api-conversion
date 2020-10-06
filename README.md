@@ -2,9 +2,9 @@
 
 ### Entrada:
 
-##### Celsius para Fahrenheit: http://localhost:8080/celsius/valor/fahrenheit
-##### Fahrenheit para Celsius: http://localhost:8080/fahrenheit/valor/celsius
+##### Celsius para Fahrenheit: http://localhost:8080/celsius/temperatura/fahrenheit
+##### Fahrenheit para Celsius: http://localhost:8080/fahrenheit/temperatura/celsius
 
 ## Execução:
 
-docker container run -p 8080:8080 leandromatpereira/api-conversao:v1
+docker container run -p 8080:8080 -d leandromatpereira/api-conversao:v1
